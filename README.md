@@ -1,183 +1,51 @@
-# 🌊 RisingOS Version 5.2 EOL (Lyonesse)
+# 🌌 RisingOS Version 6.0 BETA (Ascencion)
 
-## 🏛️ Introduction
-- Evoking the lost grandeur of the mythical Lyonesse, this release represents a step into the extraordinary. With this version, we delve into new horizons, crafting new experience for everyone.
+## 🌅 Introduction
+- A new beginning and a fresh opportunity to rise. This update brings Android 15 with a touch of RisingOS enhancements. In Ascension, we've focused on thoughtfully adding customizations while prioritizing stability and performance.
 
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for August 2024.
+- **Android Security:** Stay protected with up-to-date security patches for October 2024.
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
----
+This update introduces Android 15 features alongside several exclusive RisingOS enhancements, with some features carried over from Android 14:
 
-This update brings previous features from the previous releases with the following bug fixes and improvements:
-- **Reported Issues:** 
-  - (5.1) Attempt to fix snapchat messaging delays 
-  - (5.1) Fixed swipe gestures multi-touch issues
-  - (5.1) Attempt to fix memory leaks caused by SystemUI theme reevaluations and SystemUI restarts
-  - (5.1) Fixed custom QS Header not working (when selecting custom photo via google photos etc)
-  - (5.1) Fixed swiped island notification blocking input
-  - (5.1) Fixed weather widget redirect
-  - (5.1) Improved multi-tasking by tuning low-memory killer daemon
-  - (5.2) Fixed status bar notification count not working after a reboot
-  - (5.2) Fixed QuickSettings brightness icon color when using certain icon packs
-  - (5.2) Fixed SmartPower Off Automatically working right after the feature was enabled
-  - (5.2) Fixed realme link sign-in crash
-  - (5.2) Fixed status bar max notification not going above 4
-  - (5.2.1) Fixed ortus launcher memory leaks caused by QuickSpace
-  - (5.2.1) Attempt to prevent more possible memory leaks 
+- **Introducing Risa, Your AI Assistant:**
+  - A new assistant designed to perform various tasks, primarily to aid those with visual impairments and enhance overall multitasking.
 
-- **System-Wide:** 
-  - (5.2) Optimized and fixed layout issues on tablets or high dpi devices (600dp+)
-  - (5.2) Fixed Android System Intelligence crashes on devices with missing mms-sms provider (e.g tablets)
-  - (5.2.1) Added option to directly modify max cached processes
+- **Enhanced Multi-Window Support:**
+  - Improved Freeform and multi-window handling compared to the standard AOSP implementation.
 
-- **Advanced:** 
-  - Added option to create virtual RAM/swap using adb or root (adb shell ram_boost.sh <size_in_gb> e.g adb shell ram_boost.sh 2 - creates 2gb swap) 
-    - Helpful for legacy devices and does not conflict with ZRAM. Needs to be applied after every reboot.
+- **Revamped Pocket Mode:**
+  - Prevents accidental inputs while your device is in your pocket.
 
-- **AOD Image:** 
-  - (5.1) Improved animation and resource usage
+- **Pulse Gestures:**
+  - Trigger Doze mode with various gestures without waking up the device.
 
-- **Bootanimation Styles:** 
-  - Added option to change bootanimation
-  - Added an option to import custom bootanimation [by Alvin Francis](https://github.com/nivlafx/)
-  - (5.1) Fixed bootanimation styles not working after upgrade
+- **Compact Heads-up Notifications:**
+  - Displays notifications in a compact mode, reminiscent of the previous island notification style (more stable).
 
-- **Black Theme Styles:** 
-  - Added black theme styles with Berry black and true amoled dark as choices
+- **Animated Volume Media Icon:**
+  - Features an animating wavelength icon in the volume panel while media is playing.
 
-- **Cache Cleaner Service:** 
-  - (5.1) Introducing cache cleaner service
+- **Improve Display Engine UI:**
+  - Improved UI selection for the display engine modes
 
-- **Display Engine:** 
-  - Added Triluminous Display mode
-  - Retuned X-reality engine
-  - Reworked previews
-
-- **FaceUnlock:** 
-  - Revamped face unlock indicator to island style
-
-- **Freeform windows:** 
-  - Improved freeform window resize animation
-  - Fixed freeform minimized button not working
-  - Fixed freeform buttons/bar colors
-
-- **Healthy Charge:** 
-  - (5.2.1) Implemented Charge hold/pause feature
-
-- **Island notification:** 
-  - Added swipe to left/right to dismiss gesture
-  - (5.1) Fixed island showing when navigating youtube playback
-
-- **Lawnchair:** 
-  - Updated lawnchair to 14.0.0-20240727 [by Alvin Francis](https://github.com/nivlafx/)
-  - (5.2.1) Updated to 14.0.0-20240913 [by donjohanliebert](https://github.com/donjohanliebert/)
-
-- **Lockscreen Clocks:** 
-  - (5.1) Fixed crashed when a specific font is applied [by Alvin Francis](https://github.com/nivlafx/)
-
-- **Ortus Launcher:** 
-  - Implemented long press to search (for gestures only) 
-
-- **Personalizations:**
-  - (5.1) Re-organized theming and toolbox settings
-
-- **Power modes:**
-  - Introducing device power modes - control cpu and memory based from profiles
-  - Added QS tile
-  - (5.1) Conservative mode: Increased bias to lower frequencies 
-  - (5.2) Integrated power modes into memory management
-  - (5.2.1) Game boost mode now prioritizes top-app and limits background processes
-
-- **Pulse Gestures:** 
-  - (5.2) Single/Double tap to pulse doze
-  - (5.2) Pickup to pulse doze
-
-- **QuickSettings:**
-  - Redesigned QS Data Usage UI
-
-- **QS Widgets:**
-  - Replaced tiles with connectivity tiles (wifi, bt, data, airplane mode)
-  - Improved and updated layout
-  - Added support for QS panel styles
-  - Added QS Photo Widget
-  - Fixed paddings for different DPIs
-  - (5.1) Added long press to open wifi settings for internet tile
-  - (5.2) Fixed visual landscape issues on light mode
-  - (5.2) Fixed widget missing when rotating devices to landscape
-  - (5.2.1) Fixed media player control buttons positioning
-  - (5.2.1) Fixed oversized player icon
-  - (5.2.1) Fixed random crash caused by media player widget
-
-- **RAM Boost:**
-  - Introducing ram boost feature - prioritize utilizing compressed memory (ZRAM) and swap space (if available) to improve overall performance.
-  - Improved virtual memory tunings for performance
-
-- **Settings Styles:** 
-  - (5.1) Added option to toggle device showcase
-  - (5.2) Added toggle for dashboard greetings and user card
-  - (5.2.1) Minor UI enhancements
-  - (5.2.1) Added OOS legacy and colorful (OOS) styles
-
-- **Smart 5G service:**
-  - (5.1) Implemented Smart 5G service - Automatically switch between 5G and 4G to reduce battery consumption [by Adithya R](https://github.com/adithya2306/)
-    - RisingOS Edit: added more functionalities
-
-- **Smart Power-Off Service:** 
-  - (5.1) Smart Power-Off Service - an automated power off service with smart delay mechanism
-  - (5.2.1) Alarm is now optional
-
-- **Sound engine:**
-  - (5.2) Removed audio profiles, replaced by adjustable loudness gain/bass boost settings (Works with dolby and other sounds mods - Tested on Xiaomi Mi Pad 5 with Moto Dolby)
-  - (5.2) Added surround level settings
-
-- **Spoofing:**
-  - GameProps -> Per-app spoofing
-  - Added option to directly update Play Integrity Fix properties
-  - Added option to display currently set PIF properties
-
-- **Toolbox:**
-  - Added backup/restore feature settings [by Alvin Francis](https://github.com/nivlafx/)
-  - (5.1) Added upload and restore from google drive feature [by Alvin Francis](https://github.com/nivlafx/)
-
----
-
-## 💬 Highlights (Cherry-Picked Additions)
-- **Added BCR support:**
-  - Added Basic call recording support [Chaitanyakm, James, Andrew Gunnerson]
-
-- **GameSpace:**
-  - Improved floating app selection support by [YiQiuYes](https://github.com/YiQiuYes/)
-
-- **Power modes:**
-  - Implemented kernel tunings from KTweaks by [tytydraco](https://github.com/tytydraco/)
+- **Exposed developer option features (features exposed without enabling developer options):**
+  - Android WebView Picker (moved to system settings)
+  - Default USB function preference (moved to system settings)
+  - Show touches option (moved to display settings)
   
-- **Security bypass features:**
-  - Hide ADB and developer settings by [someone5678](https://github.com/someone5678/)
-  - Hide Screen capture status from apps by [someone5678](https://github.com/someone5678/)
-  - Storage Access Framework bypass by [rdxzv](https://github.com/rdxzv/)
+- **Reduced CPU usage:**
+  - Optimized feature integration to reduce resource usage, including a more efficient Media Art Filter.
+  - Reduced CPU usage by preventing observers from blocking main CPU threads, reducing stutters during heavy workloads.
+  - Implemented performance enhancements from ProtonAOSP by kdrag0n
   
-- **Bootloader Spoofing:**
-  - Added option to spoof as locked bootloader when spoofing GMS [by chiteroman](https://github.com/chiteroman/)
+- **Pin auto confirmation:**
+  - Enabled auto-confirmation for PINs of 4 digits or more.
   
-- **RefreshRate control enhancements:**
-  - (5.1) Improved dynamic refresh rate scheduler [by arter97](https://github.com/arter97/)
-  
-- **Added Conditional LTE_CA toggle:**
-  - (5.1) Added toggle for LTE_CA enablement [by DarkJoker360](https://github.com/DarkJoker360/)
-  
-- **Sleep mode:**
-  - Added sleep mode feature by [Anushek Prasal](https://github.com/SKULSHADY/)
----
-
-## 👴 Deprecated Features (Removed Features)
-
-- **Nothing Launcher:**
-  - Deprecated as of QPR2 update
-
 ---
 
 ## 🙌 All Features currently shipped with respective Authors and Contributors
