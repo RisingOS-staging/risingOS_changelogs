@@ -1,4 +1,4 @@
-# 🌌 RisingOS Version 6.0 BETA (Ascencion)
+# 🌌 RisingOS Version 6.0 BETA 2 (Ascension)
 
 ## 🌅 Introduction
 - A new beginning and a fresh opportunity to rise. This update brings Android 15 with a touch of RisingOS enhancements. In Ascension, we've focused on thoughtfully adding customizations while prioritizing stability and performance.
@@ -11,6 +11,22 @@
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
 This update introduces Android 15 features alongside several exclusive RisingOS enhancements, with some features carried over from Android 14:
+
+- **AOSP Bugfix:**
+  - Fixed a janky/laggy Quick Settings issue when playing media (a known AOSP issue since Android 12).
+  - Fixed a janky/laggy Quick Settings issue when there are many notifications in the notification panel (a known AOSP issue since Android 12).
+
+- **Beta Bugfix (issues from previous beta release):**
+  - Fixed Launcher issues
+  - Corrected QS header picker activity layout
+  - Updated default GMS spoofing values
+  - Resolved issue with forced monochrome icons not working
+  - Fixed boot animation styles
+  - Redirect PIF json to risingOS host to avoid malformed spoofing values
+
+- **Introducing RisingUI 6.0:**
+  - New About phone user Interface designed by Sir Ayan
+  - Added Settings Icons Styles
 
 - **Introducing Risa, Your AI Assistant:**
   - A new assistant designed to perform various tasks, primarily to aid those with visual impairments and enhance overall multitasking.
@@ -42,6 +58,7 @@ This update introduces Android 15 features alongside several exclusive RisingOS 
   - Optimized feature integration to reduce resource usage, including a more efficient Media Art Filter.
   - Reduced CPU usage by preventing observers from blocking main CPU threads, reducing stutters during heavy workloads.
   - Implemented performance enhancements from ProtonAOSP by kdrag0n
+  - Reduced memory and CPU usage by limiting bitmap resource usage.
   
 - **Pin auto confirmation:**
   - Enabled auto-confirmation for PINs of 4 digits or more.
