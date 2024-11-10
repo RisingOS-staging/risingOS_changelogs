@@ -1,4 +1,4 @@
-# 🌌 RisingOS Version 6.0 BETA 2 (Ascension)
+# 🌌 RisingOS Version 6.0 BETA 3 (Ascension)
 
 ## 🌅 Introduction
 - A new beginning and a fresh opportunity to rise. This update brings Android 15 with a touch of RisingOS enhancements. In Ascension, we've focused on thoughtfully adding customizations while prioritizing stability and performance.
@@ -6,7 +6,7 @@
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for October 2024.
+- **Android Security:** Stay protected with up-to-date security patches for November 2024.
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Additions)
@@ -23,6 +23,11 @@ This update introduces Android 15 features alongside several exclusive RisingOS 
   - Resolved issue with forced monochrome icons not working
   - Fixed boot animation styles
   - Redirect PIF json to risingOS host to avoid malformed spoofing values
+  - Resolved memory leaks caused by UDFPS animation (fixed by neobuddy89)
+  - Fixed notification getting stuck when turning on display if AOD image is enabled
+  - Fixed customizations that were not working
+  - Fixed vibrate icon not showing on the status bar
+  - Fixed do not disturb delays
 
 - **Introducing RisingUI 6.0:**
   - New About phone user Interface designed by Sir Ayan
@@ -62,7 +67,30 @@ This update introduces Android 15 features alongside several exclusive RisingOS 
   
 - **Pin auto confirmation:**
   - Enabled auto-confirmation for PINs of 4 digits or more.
+
+- **Added QuickSettings Customizations:**
+  - QS Panel Styles
+  - QS UI Styles
+  - QS Tile Layout
+  - QS Widgets
   
+- **Added Lockscreen Widgets:**
+  - Added lockscreen shortcuts toggle
+  
+- **Added new clock faces and fonts:**
+  - Added Ntype82 and Subway clock fonts
+  - Added simple tiny clock inspired from NothingOS 3.0
+  
+- **Introducing wallpaper blur feature:**
+  - Wallpaper blur filter inspired from NothingOS 3.0/IOS
+
+- **Added media controls to media output dialog:**
+
+- **Added ambient music support (Pixels only):**
+
+- **Display Engine:**
+  - Introducing Triluminous Pro mode
+
 ---
 
 ## 🙌 All Features currently shipped with respective Authors and Contributors
