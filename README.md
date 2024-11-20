@@ -1,95 +1,122 @@
-# 🌌 RisingOS Version 6.0 BETA 3 (Ascension)
+# 🌌 RisingOS Version 6.0 STABLE (Ascension)
 
 ## 🌅 Introduction
-- A new beginning and a fresh opportunity to rise. This update brings Android 15 with a touch of RisingOS enhancements. In Ascension, we've focused on thoughtfully adding customizations while prioritizing stability and performance.
+A new beginning and a fresh opportunity to rise! This update brings **Android 15** with a touch of **RisingOS enhancements**. With *Ascension*, we've focused on thoughtfully adding customizations while prioritizing stability and performance.
 
 ---
 
 ## 🔒 Security Updates
-- **Android Security:** Stay protected with up-to-date security patches for November 2024.
+- **Android Security Patches:** Up-to-date as of **November 2024**, ensuring robust protection.
+
 ---
 
-## 💬 Highlights (RisingOS Exclusive Additions)
-This update introduces Android 15 features alongside several exclusive RisingOS enhancements, with some features carried over from Android 14:
+## 💬 Highlights (RisingOS Exclusive Features)
 
-- **AOSP Bugfix:**
-  - Fixed a janky/laggy Quick Settings issue when playing media (a known AOSP issue since Android 12).
-  - Fixed a janky/laggy Quick Settings issue when there are many notifications in the notification panel (a known AOSP issue since Android 12).
+### 🔧 **Bug Fixes**
+#### AOSP Issues:
+- Fixed laggy Quick Settings when playing media or handling multiple notifications (persisting issues since Android 12).
 
-- **Beta Bugfix (issues from previous beta release):**
-  - Fixed Launcher issues
-  - Corrected QS header picker activity layout
-  - Updated default GMS spoofing values
-  - Resolved issue with forced monochrome icons not working
-  - Fixed boot animation styles
-  - Redirect PIF json to risingOS host to avoid malformed spoofing values
-  - Resolved memory leaks caused by UDFPS animation (fixed by neobuddy89)
-  - Fixed notification getting stuck when turning on display if AOD image is enabled
-  - Fixed customizations that were not working
-  - Fixed vibrate icon not showing on the status bar
-  - Fixed do not disturb delays
+#### Beta Fixes (from the previous beta release):
+- Launcher issues resolved.
+- Corrected Quick Settings header picker layout.
+- Updated default GMS spoofing values.
+- Fixed:
+  - Forced monochrome icons.
+  - Boot animation styles.
+  - Memory leaks from UDFPS animation (thanks to **neobuddy89**).
+  - Stuck notifications when AOD image is enabled.
+  - Various customization issues.
+  - Vibrate icon display on the status bar.
+  - Do Not Disturb delays.
+  - Japanese dialog titles for notification/alarm sounds.
+  - Auto-brightness icon UI bugs.
+  - Vertical scrolling and A11-style side-scrolling issues.
+  - Pulse media color filter glitches.
 
-- **Introducing RisingUI 6.0:**
-  - New About phone user Interface designed by Sir Ayan
-  - Added Settings Icons Styles
+---
 
-- **Introducing Risa, Your AI Assistant:**
-  - A new assistant designed to perform various tasks, primarily to aid those with visual impairments and enhance overall multitasking.
+### 🌟 **Features**
+#### **RisingUI 6.0**
+- Redesigned **About Phone UI** (by **Sir Ayan**).
+- New **Personalizations UI**.
+- New **Settings Icons**
+- Added **Settings Icon Styles**.
 
-- **Enhanced Multi-Window Support:**
-  - Improved Freeform and multi-window handling compared to the standard AOSP implementation.
+#### **Risa – Your AI Assistant**
+- A brand-new assistant for tasks, visual impairments, and enhanced multitasking.
 
-- **Revamped Pocket Mode:**
-  - Prevents accidental inputs while your device is in your pocket.
+#### **Enhanced Multi-Window Support**
+- Better Freeform and multi-window handling than AOSP.
 
-- **Pulse Gestures:**
-  - Trigger Doze mode with various gestures without waking up the device.
+#### **Revamped Pocket Mode**
+- Prevents accidental inputs when the device is in your pocket.
 
-- **Compact Heads-up Notifications:**
-  - Displays notifications in a compact mode, reminiscent of the previous island notification style (more stable).
+#### **Pulse Gestures**
+- Trigger Doze mode with gestures without waking the device.
 
-- **Animated Volume Media Icon:**
-  - Features an animating wavelength icon in the volume panel while media is playing.
+#### **Compact Heads-Up Notifications**
+- Displays notifications in a compact mode inspired by "island" notifications (more stable).
 
-- **Improve Display Engine UI:**
-  - Improved UI selection for the display engine modes
+#### **Animated Volume Media Icon**
+- A new animated wavelength icon in the volume panel when media is playing.
 
-- **Exposed developer option features (features exposed without enabling developer options):**
-  - Android WebView Picker (moved to system settings)
-  - Default USB function preference (moved to system settings)
-  - Show touches option (moved to display settings)
-  
-- **Reduced CPU usage:**
-  - Optimized feature integration to reduce resource usage, including a more efficient Media Art Filter.
-  - Reduced CPU usage by preventing observers from blocking main CPU threads, reducing stutters during heavy workloads.
-  - Implemented performance enhancements from ProtonAOSP by kdrag0n
-  - Reduced memory and CPU usage by limiting bitmap resource usage.
-  
-- **Pin auto confirmation:**
-  - Enabled auto-confirmation for PINs of 4 digits or more.
+#### **Introducing Notification Peek Display**
+- Inspired from motorola's bubble notification lockscreen style and android 15/16 minimalism beta feature
 
-- **Added QuickSettings Customizations:**
-  - QS Panel Styles
-  - QS UI Styles
-  - QS Tile Layout
-  - QS Widgets
-  
-- **Added Lockscreen Widgets:**
-  - Added lockscreen shortcuts toggle
-  
-- **Added new clock faces and fonts:**
-  - Added Ntype82 and Subway clock fonts
-  - Added simple tiny clock inspired from NothingOS 3.0
-  
-- **Introducing wallpaper blur feature:**
-  - Wallpaper blur filter inspired from NothingOS 3.0/IOS
+---
 
-- **Added media controls to media output dialog:**
+### 🎨 **UI Enhancements**
+- **Display Engine Improvements:** Better selection UI for display engine modes.
+- **Quick Settings Customizations:**
+  - Added QS panel styles, UI styles, and tile layouts.
+- **Lockscreen Widgets:**
+  - Added lockscreen shortcuts toggle.
+- **Clocks & Fonts:**
+  - Added **Ntype82**, **Subway**, and **MotoMilkyStacked** clock fonts.
+  - Introduced a minimalistic clock face inspired by **NothingOS 3.0**.
+  - Added **Motorola**-styled clock face.
+- **Wallpaper Blur & Dim Features:** New aesthetic customizations.
 
-- **Added ambient music support (Pixels only):**
+---
 
-- **Display Engine:**
-  - Introducing Triluminous Pro mode
+### 🎵 **Audio & Media**
+- Added **media controls** to the media output dialog.
+- Introduced **ambient music support** (Pixels only).
+- **Music QS Tile:** Added for quick playback access.
+- **Volume QS Tile:** Added for quick **buttonless** volume adjustment.
+
+---
+
+### 📊 **Performance Enhancements**
+- Optimized feature integration to reduce resource usage.
+- Reduced CPU usage during heavy workloads:
+  - Prevented some observers from blocking main CPU threads.
+  - Memory and CPU optimizations by limiting bitmap resources.
+- Performance enhancements implemented from **ProtonAOSP** by **kdrag0n**.
+- Improved memory management by improving memory killer performance
+
+---
+
+### 🔧 **Developer Options Exposure**
+- Features moved to system settings without enabling developer mode:
+  - **Android WebView Picker**
+  - **Default USB Function Preference**
+  - **Show Touches Option**
+
+---
+
+### 🛠️ **Additional Features**
+- **Pin Auto-Confirmation:** Enabled for 4+ digit PINs.
+- **Triluminous Pro Display Engine Mode:** New display mode inspired from Sony's Triluminous Pro Display.
+- **New Wallpapers:** Featuring the **Rising x Wukong Edition** by Sir Ayan and the new **Nothing Phone 2A Plus Community Edition** wallpapers.
+- **Added pixel features:** Exclusive pixel features such reverse charging, now playing, Quick tap
+
+---
+
+## 👴 Deprecated Features (Removed Features)
+
+- **QS Widgets:**
+  - Incompatible with Android 15 changes (Results to broken QS Customizer etc.)
 
 ---
 
@@ -101,31 +128,33 @@ Below is a detailed compilation of all features incorporated into the current re
 Your understanding and appreciation for the creativity and efforts of the original contributors are highly valued. We extend our outmost gratitude and appreciation to all the people listed below for their contributions and efforts to the development of these features 🙏
 
 ---
-- **LineageOS features and customizations:** LineageOS and crDroidAndroid Project
+## Cherry-picked features
+- **LineageOS features and customizations:** LineageOS
 - **Adaptive Playback:** Jyotiraditya, Stylogey
 - **Ai Assistant Shortcut:** Credits to Mishaal Rahman
 - **Always on Display schedule:** idoybh
-- **Always on Display on Charge:** darkobas, jhonboy121, idoybh, Pranav Vashi (Fixes and Improvements)
-- **AppLock:** jhonboy121, Pranav Vashi (Forward Port and fixes)
+- **App Lock:** jhonboy121, Pranav Vashi (Forward Port and fixes)
 - **Brightness Slider Customizations:** Alberto97, Michael Bestas, Luca Stefani, Alexander Westphal, qjohn, maxwen, Pranav Vashi, idoybh, timjosten
 - **Battery Bar:** cphelps76, Pranav Vashi (Fixes)
 - **Battery Customizations:** althafvly, Pranav Vashi, Myself5, TheStrix, ezio84, 703joko, R15Hi, spezi77, StarkDroid, Dr Disagree
 - **Colored Status Bar Icons:** Dil3mm4, spkal101, Pranav Vashi (Fixes and Improvements)
+- **Depth Wallpaper:** siavash79
 - **Disable Data Indicator:** varund7726
 - **Edge Light:** jhonboy121, Stallix (Forward Port), Pranav Vashi (Fixes and Improvements)
+- **Flashlight Strength Tile:** Anay Wadhera, Jake Weinstein, ralph950412, Dhina17
 - **GameSpace:** Nauval Rizky
+- **Hide ADB and developer:** someone5678
+- **Hide Screen capture status from apps:** someone5678
 - **Hide Power Menu on QS:** jhonboy121
-- **Island Notification:** Dil3mm4 (author of reticker feature), Pranav Vashi and someone5678 (fixes and improvements)
 - **Less Boring Headsup:** ezio84, Rushab Shah, Pranav Vashi
 - **Music Ticker:** ezio84, Pranav Vashi (Forward Port)
 - **Noisy Notifications:** ezio84
+- **LMOFreeform Sidebar:** LibreMobileOS
 - **Lockscreen Charging Info:** beanstown106
 - **LockScreen Clocks:** Afterlife Project (703joko)
-- **Lockscreen Media Art:** beanstown106
 - **Monet Customizations:** idoybh, Pranav Vashi
 - **Notification Count:** Steve Kondik, jhonboy121, Pranav Vashi (Fixes)
 - **Omnijaws Weather Client:** Maxwen, Pranav Vashi
-- **QuickSettings Tile Animations:** Nico60, PacMM79
 - **QuickSettings Header Image:** Idc/ancientOS
 - **QuickSettings Styles and Customizations:** IacobIonut01, SamarV-121, Tim Zimmermann, cjh1249131356, timjosten, StarkDroid, Dr Disagree, elluzion, rdx420
 - **Screen Off Animations:** Kshitij Gupta, Pranav Vashi (Forward Port),
@@ -133,15 +162,22 @@ Your understanding and appreciation for the creativity and efforts of the origin
 - **Status Bar Clock Customizations:** Luca Stefani, Hendrik Hagendorn, LuK1337, Michael W, Volodymyr Zhdanov, kxxt, bellegarde-c, Pranav Vashi
 - **Status Bar Clock Chip:** StarkDroid
 - **Status Bar Logo:** Pranav Vashi, Shevt, LorDClockaN, varund7726
+- **Strict Standby Policy:** LibXZR, Adithya R
 - **System Haptics:** Blaster4385, Pranav Vashi, someone5678
+- **Smart 5G:** Adithya R
 - **Smart Pixels:** Sergii Pylypenko, Anay Wadhera, Pranav Vashi, frap129
 - **Screenshot Sound:** Ashwin R C
-- **Swipe to Screenshot:** ghbhaha, jhenrique09
+- **Sleep Mode:** SKULSHADY
+- **Storage Access Framework bypass:** rdxzv
+- **Swipe to Screenshot Gestures:** ghbhaha, jhenrique09
+- **Per-app Volume:** cjybyjk
+- **Pixel Framework:** jhenrique09, nivlafx, someone5678
 - **Pulse Visualizer:** bigrushdog (Randall), Pranav Vashi (Forward Port)
+- **QS Transparency Customization:** DotOS, spkal101, nift4, Pranav Vashi
 - **UDFPS Animations:** SagarMakhar, Dhina17, AnnierinBliss, Pranav Vashi
-- **Volume Steps:** Meticulus
+- **UDFPS Icons:** Pranav Vashi
+- **UI Styles:** eldainosor
 - **Volume Styles:** Dr Disagree (iconify volume style packs).
-
 ---
 
 
