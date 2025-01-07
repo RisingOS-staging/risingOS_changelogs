@@ -1,123 +1,67 @@
-# 🌌 RisingOS Version 6.0 STABLE (Ascension)
+# 🚀 RisingOS Version 6.1 STABLE (Boundless)
 
-## 🌅 Introduction
-A new beginning and a fresh opportunity to rise! This update brings **Android 15** with a touch of **RisingOS enhancements**. With *Ascension*, we've focused on thoughtfully adding customizations while prioritizing stability and performance.
+## 🌍✨ Introduction
+Go boundless! risingOS v6.1 is here! This update includes Android 15 QPR1 changes, packed with exciting new features, performance improvements, and bug fixes.
 
 ---
 
 ## 🔒 Security Updates
-- **Android Security Patches:** Up-to-date as of **November 2024**, ensuring robust protection.
+- **Android Security Patches:** Up-to-date as of **December 2024** with Android 15 QPR1 changes.
 
 ---
 
 ## 💬 Highlights (RisingOS Exclusive Features)
 
+### **💻 Explore Our New Website**  
+- Dive into the world of risingOS at https://risingtechoss.github.io/. Discover the latest firmware updates, news, download options for supported devices, and more!
+
 ### 🔧 **Bug Fixes**
-#### AOSP Issues:
-- Fixed laggy Quick Settings when playing media or handling multiple notifications (persisting issues since Android 12).
-
-#### Beta Fixes (from the previous beta release):
-- Launcher issues resolved.
-- Corrected Quick Settings header picker layout.
-- Updated default GMS spoofing values.
-- Fixed:
-  - Forced monochrome icons.
-  - Boot animation styles.
-  - Memory leaks from UDFPS animation (thanks to **neobuddy89**).
-  - Stuck notifications when AOD image is enabled.
-  - Various customization issues.
-  - Vibrate icon display on the status bar.
-  - Do Not Disturb delays.
-  - Japanese dialog titles for notification/alarm sounds.
-  - Auto-brightness icon UI bugs.
-  - Vertical scrolling and A11-style side-scrolling issues.
-  - Pulse media color filter glitches.
-
+- Fixed and improved QS Widgets slider animation
+- Fixed LMOFreeform crashes
+- Fixed misc reported bugs from beta releases
+- Fixed depth wallpaper/media art inconsistencies/glitches
+- Fixed secure QuickSettings not showing the QuickSettings after authentication
+- Spoofing fixes and improvements to unlock google pixel features and fix issues on non-tensor devices (by nivlafx)
 ---
 
 ### 🌟 **Features**
-#### **RisingUI 6.0**
-- Redesigned **About Phone UI** (by **Sir Ayan**).
-- New **Personalizations UI**.
-- New **Settings Icons**
-- Added **Settings Icon Styles**.
+#### **RisingUI**
+- New risingOS version easter egg (maybe tap the risingOS version 😉)
 
-#### **Risa – Your AI Assistant**
-- A brand-new assistant for tasks, visual impairments, and enhanced multitasking.
+#### **Introducing Lockscreen widgets info**
+- Display device information like battery temperature/level on the lockscreen
 
-#### **Enhanced Multi-Window Support**
-- Better Freeform and multi-window handling than AOSP.
-
-#### **Revamped Pocket Mode**
-- Prevents accidental inputs when the device is in your pocket.
-
-#### **Pulse Gestures**
-- Trigger Doze mode with gestures without waking the device.
-
-#### **Compact Heads-Up Notifications**
-- Displays notifications in a compact mode inspired by "island" notifications (more stable).
-
-#### **Animated Volume Media Icon**
-- A new animated wavelength icon in the volume panel when media is playing.
+#### **Introducing Now bar Feature**
+- Mini lockscreen widgets inspired from One UI 7.0
 
 #### **Introducing Notification Peek Display**
 - Inspired from motorola's bubble notification lockscreen style and android 15/16 minimalism beta feature
 
+#### **Optional Better QS**
+- Enable experiemental landscape QuickSettings 
+
+#### **Introducing System animation styles**
+- New fancy system animations
+
+#### **More Theming options**
+- Added QS header clock, notification, progress bar, power menu themes (credits to iconify by Dr Disagree)
+
+#### **Ortus Launcher**
+- Added Circle to search integration (Credits and thanks to HELLBOY017)
+- RisingUI redesign (by nivlafx and not-ayan)
+- New material you design
 ---
 
 ### 🎨 **UI Enhancements**
-- **Display Engine Improvements:** Better selection UI for display engine modes.
-- **Quick Settings Customizations:**
-  - Added QS panel styles, UI styles, and tile layouts.
-- **Lockscreen Widgets:**
-  - Added lockscreen shortcuts toggle.
-- **Clocks & Fonts:**
-  - Added **Ntype82**, **Subway**, and **MotoMilkyStacked** clock fonts.
-  - Introduced a minimalistic clock face inspired by **NothingOS 3.0**.
-  - Added **Motorola**-styled clock face.
-- **Wallpaper Blur & Dim Features:** New aesthetic customizations.
-
----
-
-### 🎵 **Audio & Media**
-- Added **media controls** to the media output dialog.
-- Introduced **ambient music support** (Pixels only).
-- **Music QS Tile:** Added for quick playback access.
-- **Volume QS Tile:** Added for quick **buttonless** volume adjustment.
-
+- Updated the default search bar style
+- Revamped the Media Output dialog
+- Introduced a new Personalizations UI
+- Improved UI/UX by refining preference UI states for better differentiating of disabled preferences and incorporating Material You design into preference cards
 ---
 
 ### 📊 **Performance Enhancements**
-- Optimized feature integration to reduce resource usage.
-- Reduced CPU usage during heavy workloads:
-  - Prevented some observers from blocking main CPU threads.
-  - Memory and CPU optimizations by limiting bitmap resources.
-- Performance enhancements implemented from **ProtonAOSP** by **kdrag0n**.
-- Improved memory management by improving memory killer performance
-
----
-
-### 🔧 **Developer Options Exposure**
-- Features moved to system settings without enabling developer mode:
-  - **Android WebView Picker**
-  - **Default USB Function Preference**
-  - **Show Touches Option**
-
----
-
-### 🛠️ **Additional Features**
-- **Pin Auto-Confirmation:** Enabled for 4+ digit PINs.
-- **Triluminous Pro Display Engine Mode:** New display mode inspired from Sony's Triluminous Pro Display.
-- **New Wallpapers:** Featuring the **Rising x Wukong Edition** by Sir Ayan and the new **Nothing Phone 2A Plus Community Edition** wallpapers.
-- **Added pixel features:** Exclusive pixel features such reverse charging, now playing, Quick tap
-
----
-
-## 👴 Deprecated Features (Removed Features)
-
-- **QS Widgets:**
-  - Incompatible with Android 15 changes (Results to broken QS Customizer etc.)
-
+- Improved app launch and scrolling performance
+- Reduced resource usage by using low ram configuration for notification bitmaps
 ---
 
 ## 🙌 All Features currently shipped with respective Authors and Contributors
