@@ -26,7 +26,7 @@ Go boundless! risingOS v6.1 is here! This update includes Android 15 QPR1 change
 
 ### 🌟 **Features**
 #### **RisingUI**
-- New risingOS version easter egg (maybe tap the risingOS version 😉)
+- New risingOS version easter egg (maybe tap the risingOS version multiple times 😉)
 
 #### **Introducing Lockscreen widgets info**
 - Display device information like battery temperature/level on the lockscreen
